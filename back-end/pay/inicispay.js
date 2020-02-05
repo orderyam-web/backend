@@ -8,7 +8,7 @@ router.use(cors());
 
 router.get('/inicispay', function (req, res) {
     //자바
-    res.redirect('http://15.165.86.132:8080/inicistest/INIStdPayRequest.jsp');
+    res.redirect('http://localhost:8080/inicistest/INIStdPayRequest.jsp');
 });
 
 module.exports = router;
